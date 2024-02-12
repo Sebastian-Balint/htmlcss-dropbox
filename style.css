@@ -25,12 +25,12 @@ html {
 
 /* COMMON */
 
-.l-cont {
+.large-cont {
   width: 1180px;
   margin: 0 auto;
 }
 
-.m-cont {
+.medium-cont {
   width: 1000px;
   margin: 0 auto;
 }
@@ -303,6 +303,7 @@ hr.color {
   font-weight: lighter;
 }
 
+
 /* colonna piano personalizzato */
 
 .col.big {
@@ -313,6 +314,7 @@ hr.color {
   flex-direction: row;
   justify-content: space-between;
 }
+
 
 /* section due */
 
@@ -330,4 +332,31 @@ hr.color {
 
 .due .w-30 {
   margin-top: 60px;
+}
+
+
+/* section tre */
+
+.tre h2 {
+  margin-bottom: 65px;
+}
+
+.tre .row {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.tre .high {
+  padding: 0;
+  gap: 35px;
+}
+
+.tre .low {
+  padding: 0;
+}
+
+.tre .col {
+  border: none;
+  gap: 40px;
 }
