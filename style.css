@@ -468,3 +468,72 @@ section.quattro {
 .cc {
   background-color: #ffd830;
 }
+
+
+/* section sei */
+
+.sei {
+  padding: 140px 0;
+  background-color: var(--azzurro);
+}
+
+.sei h2 {
+  font-size: 32px;
+  color: #6e082b;
+}
+
+.sei .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sei .second {
+  border: none;
+}
+/* setion sette */
+
+.sette {
+  padding: 160px 0 150px 0;
+}
+
+.sette h2 {
+  margin-bottom: 70px;
+}
+
+.sette .row h5 {
+  font-size: 15px;
+}
+
+.domanda {
+  padding: 45px 0;
+  border-top: 1px solid black;
+}
+
+.domanda:last-child {
+  border-bottom: 1px solid black;
+}
+
+.sette .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sette .row h5:last-child {
+  margin-right: 45px;
+}
+
+.domanda .risposta {
+  display: none;
+}
+
+.domanda:hover .row {
+  margin-bottom: 45px;
+}
+
+.domanda:hover .risposta {
+  display: block;
+}
+
+.domanda:hover .row h5 i {
+  transform: rotate(180deg);
+}
