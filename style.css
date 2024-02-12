@@ -45,6 +45,11 @@ section {
   flex-direction: row;
 }
 
+section a {
+  text-decoration: underline;
+  color: var(--blu);
+}
+
 section h2 {
   font-size: 42px;
 }
