@@ -313,3 +313,21 @@ hr.color {
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* section due */
+
+.due {
+  margin: 160px auto;
+}
+
+.due.row {
+  gap: 50px;
+}
+
+.due h2 {
+  font-size: 28px;
+}
+
+.due .w-30 {
+  margin-top: 60px;
+}
