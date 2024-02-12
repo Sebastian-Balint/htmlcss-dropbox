@@ -360,3 +360,13 @@ hr.color {
   border: none;
   gap: 40px;
 }
+
+/* section quattro */
+
+section.quattro {
+  gap: 65px;
+}
+
+.quattro {
+  margin: 220px auto 150px auto;
+}
