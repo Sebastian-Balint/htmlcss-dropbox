@@ -490,6 +490,8 @@ section.quattro {
 .sei .second {
   border: none;
 }
+
+
 /* setion sette */
 
 .sette {
@@ -536,4 +538,49 @@ section.quattro {
 
 .domanda:hover .row h5 i {
   transform: rotate(180deg);
+}
+
+
+/* footer */
+footer {
+  padding: 110px 0 50px 0;
+  background-color: black;
+  color: white;
+}
+
+footer h6 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer .row {
+  gap: 40px;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 40px) / 5);
+}
+
+.f-col h4 {
+  margin-bottom: 35px;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+footer ul li:last-child {
+  margin: 0;
+}
+
+footer hr {
+  margin: 115px 0 50px 0;
+}
+
+.lingua.row {
+  color: #999999;
+  gap: 10px;
+  align-items: center;
 }
